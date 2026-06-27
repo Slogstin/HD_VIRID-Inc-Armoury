@@ -16,3 +16,4 @@
  - Burn Heal
  - CO2 Grenades
  - Shield Badges
+ - Battery Dynamo

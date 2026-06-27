@@ -1,5 +1,4 @@
 Additional Content to be finished (In order of importance):
-	- Battery Dynamo				-	Not much work left, just a sprite and some sounds
 	- Updated MP40					-	Needs polish
 	- Vaswani						-	Needs sprites and tons of polish
 	- Reworked 45LC Thompson		-	Will be a whole different weapon
@@ -16,7 +15,7 @@ Content planned for later:
 	
 Currently Added Content:
 	- Satya Light cannon
-	- Nail ammo & Reloader
+	- Nail ammo & Reloader			-	May need balance changes.
 	- Nail Pistol
 	- Nailgun
 	- Queen Scattergun
@@ -24,7 +23,8 @@ Currently Added Content:
 	- Sabre
 	- Pipe Wrench
 	- Cleaver
-	- Babuin Spray
+	- Babuin Spray					-	Will have to look at closer. The whole burning gimmick is a mess.
 	- Burn Heal
 	- CO2 Grenades
 	- Shield Badges
+	- Battery Dynamo				-	Still could use some sounds.
