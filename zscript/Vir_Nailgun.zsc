@@ -115,7 +115,7 @@ class VirNailgun:HDWeapon{
 			sb.drawnum(hpl.countinv("VirNailgunMag"),-43,-8,sb.DI_SCREEN_CENTER_BOTTOM);
 		}
 		sb.drawbattery(-64,-4,sb.DI_SCREEN_CENTER_BOTTOM,reloadorder:true);
-		sb.drawwepnum(hdw.weaponstatus[NLGN_MAG],35,-16,-14);
+		sb.drawwepnum(hdw.weaponstatus[NLGN_MAG],35,-16,-9);
 		sb.drawwepnum(hdw.weaponstatus[NLGN_BATTERY],20);
 		sb.drawnum(hpl.countinv("HDBattery"),-56,-8,sb.DI_SCREEN_CENTER_BOTTOM);
 		if(hdw.weaponstatus[NLGN_CHAMBER]==2)sb.drawrect(-19,-11,3,1);

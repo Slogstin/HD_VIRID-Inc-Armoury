@@ -22,8 +22,7 @@ class VirSatya:HDHandgun{
 		weaponspecial=1337;//UaS stabilizer compatibility
 	}
 	override double weaponbulk(){
-		int bat=weaponstatus[SATYA_BATTERY];
-		return 45;
+		return 45+(weaponstatus[10]>=0?ENC_BATTERY_LOADED/2:0);
 	}
 	override double gunmass(){
 		return 9;

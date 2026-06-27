@@ -92,7 +92,16 @@ OB_NAILPISTOL = "%o got nailed by %k.";
 TAG_NAILPISMAG = "Nail Pistol Magazine";
 PICKUP_NAILPISMAG = "Picked up a Nail Pistol magazine.";
 
+//Battery Dynamo
+TAG_BATDYNAMO = "Battery Dynamo";
+PICKUP_BATDYNAMO = "You got the Battery Dynamo! Say goodbye to your arm!";
+
 // Merchant
+
+//Battery Dynamo
+MERCH_CAT_BATDYNAMO				= "VIRID Inc.";
+MERCH_TAG_BATDYNAMO				= "Battery Dynamo";
+MERCH_FLAVOR_BATDYNAMO			= "Your arms will hate you, but that's the price of free energy!";
 
 //Nailgun
 MERCH_CAT_NLG					= "VIRID Inc.";

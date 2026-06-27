@@ -47,6 +47,8 @@ OptionMenu "ViridInc_Menu"
 	StaticText ""
 	Submenu "'Babu-Begone' Anti-Babuin Spray", "VIR_BabuSpray_Menu", 0, 1
 	StaticText ""
+	Submenu "Battery Dynamo", "VIR_BatDynamo_Menu", 0, 1
+	StaticText ""
 	Submenu "Nail Repair Device", "VIR_NailReloader_Menu", 0, 1
 	StaticText ""
 	StaticText ""
@@ -466,6 +468,38 @@ OptionMenu "VIR_NailReloader_Menu"
 	StaticText ""
 	StaticText "Merchant Price:", "White"
 	StaticText "hdm_nailreloader_price [VALUE]", "Green"
+	StaticText ""
+	StaticText ""
+	StaticText ""
+	
+}
+
+OptionMenu "VIR_BatDynamo_Menu"
+{
+	Title "Battery Dynamo"
+	
+	StaticText "--- Spawning ---", "DarkGreen"
+	StaticText ""
+	Slider "Spawn Weight (Blur Sphere pool)", "SLG_BatDynamo_Spawns", 0.0, 50, .01, 2
+	StaticText ""
+	Option "Can Spawn in wild Backpacks?", "virbatdynamo_allowBackpacks", "SpawnEnable"
+	StaticText ""
+	Option "Has persistent Spawns?", "SLG_BatDynamo_Persistency", "SpawnEnable"
+	StaticText ""
+	StaticText "--- Merchant Store ---", "DarkGreen"
+	StaticText ""
+	Option "Can be sold by Merchants?", "hdm_enable_batdynamo", "SpawnEnable"
+	StaticText ""
+	Slider "Price", "hdm_batdynamo_price", 0.0, 5000, .01, 2
+	StaticText ""
+	StaticText ""
+	StaticText "Use the following commands for faster fine tuning of values!", "Gold"
+	StaticText ""
+	StaticText "Spawn Weight:", "White"
+	StaticText "SLG_BatDynamo_Spawns [VALUE]", "Green"
+	StaticText ""
+	StaticText "Merchant Price:", "White"
+	StaticText "hdm_BatDynamo_price [VALUE]", "Green"
 	StaticText ""
 	StaticText ""
 	StaticText ""

@@ -46,6 +46,9 @@ addSpawnTableSingleEntry => { "tableName": "ArmorBonusReplaces", "name": "HDCO2G
 addSpawnTableSingleEntry => { "tableName": "ClipReplaces", "name": "VirNailPistolMag", "weight": "#SLG_NailPisMag_Spawns", "persists": "#SLG_NailPisMag_Persistency"}
 addSpawnTableSingleEntry => { "tableName": "ShotgunReplaces", "name": "NailPistolDrop", "weight": "#SLG_NailPistol_Spawns", "persists": "#SLG_NailPistol_Persistency"}
 
+//Battery Dynamo
+addSpawnTableSingleEntry => { "tableName": "BlurSphereReplaces", "name": "VirBatteryDynamo", "weight": "#SLG_BatDynamo_Spawns", "persists": "#SLG_BatDynamo_Persistency"}
+
 
 
 
@@ -95,6 +98,9 @@ addBPSpawnPoolFilter => { "name": "VirSatya", "allowed": "#virsatya_allowBackpac
 addBPSpawnPoolFilter => { "name": "VirNailPistol", "allowed": "#virnailpistol_allowBackpacks" }
 addBPSpawnPoolFilter => { "name": "VirNailPistolMag", "allowed": "#virnailpismag_allowBackpacks" }
 
+//Battery Dynamo
+addBPSpawnPoolFilter => { "name": "VirBatteryDynamo", "allowed": "#virbatdynamo_allowBackpacks" }
+
 
 
 
@@ -123,6 +129,10 @@ addAmmoUser => { "ammoName": "WAN_20mmGrenadeAmmo", "name": "VirDumbo" }
 
 //Satya
 addAmmoUser => { "ammoName": "HDMicroCell", "name": "VirSatya" }
+
+//Battery Dynamo
+addAmmoUser => { "ammoName": "HDMicroCell", "name": "VirBatteryDynamo" }
+addAmmoUser => { "ammoName": "HDBattery", "name": "VirBatteryDynamo" }
 
 
 
@@ -162,9 +172,6 @@ newMerchantStoreItem => { "enabled": "#hdm_enable_nailgunmag", "type": "mag", "c
 //Nail Ammo
 newMerchantStoreItem => { "enabled": "#hdm_enable_nails", "type": "ammo", "category": "$MERCH_CAT_NAILS", "item": "VirNailAmmo",  "amount": "70", "icon": "VNALX0", "displayName": "$MERCH_TAG_NAILS", "basePrice": "#hdm_nails_price", "flavorText": "$MERCH_FLAVOR_NAILS" }
 
-//Nail Reloader
-newMerchantStoreItem => { "enabled": "#hdm_enable_nailreloader", "type": "item", "category": "$MERCH_CAT_NAILFIX", "item": "NailReloader", "icon": "VNALV0", "displayName": "$MERCH_TAG_NAILFIX", "basePrice": "#hdm_nailreloader_price", "flavorText": "$MERCH_FLAVOR_NAILFIX" }
-
 //Queen + Mags
 newMerchantStoreItem => { "enabled": "#hdm_enable_queen", "type": "weapon", "category": "$MERCH_CAT_QUEEN", "item": "VirQueen", "icon": "QSCGQ0", "displayName": "$MERCH_TAG_QUEEN", "basePrice": "#hdm_queen_price", "flavorText": "$MERCH_FLAVOR_QUEEN" }
 newMerchantStoreItem => { "enabled": "#hdm_enable_queenmag", "type": "mag", "category": "$MERCH_CAT_QUEENMAG", "item": "VirQueenMag", "icon": "QENMA0", "displayName": "$MERCH_TAG_QUEENMAG", "basePrice": "#hdm_queenmag_price", "flavorText": "$MERCH_FLAVOR_QUEENMAG" }
@@ -194,4 +201,9 @@ newMerchantStoreItem => { "enabled": "#hdm_enable_sbadge", "type": "item", "cate
 //CO2 Grenade
 newMerchantStoreItem => { "enabled": "#hdm_enable_co2", "type": "ammo", "category": "$MERCH_CAT_CO2NADE", "item": "HDCO2GrenadeAmmo", "icon": "CO22A0", "displayName": "$MERCH_TAG_CO2NADE", "basePrice": "#hdm_co2_price", "flavorText": "$MERCH_FLAVOR_CO2NADE" }
 
+//Battery Dynamo
+newMerchantStoreItem => { "enabled": "#hdm_enable_batdynamo", "type": "item", "category": "$MERCH_CAT_BATDYNAMO", "item": "VirBatteryDynamo", "icon": "BTRDY0", "displayName": "$MERCH_TAG_BATDYNAMO", "basePrice": "#hdm_batdynamo_price", "flavorText": "$MERCH_FLAVOR_BATDYNAMO" }
+
+//Nail Reloader
+newMerchantStoreItem => { "enabled": "#hdm_enable_nailreloader", "type": "item", "category": "$MERCH_CAT_NAILFIX", "item": "NailReloader", "icon": "VNALV0", "displayName": "$MERCH_TAG_NAILFIX", "basePrice": "#hdm_nailreloader_price", "flavorText": "$MERCH_FLAVOR_NAILFIX" }
 

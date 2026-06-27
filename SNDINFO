@@ -73,3 +73,7 @@ Satya/Down			SATDOWN
 Weapons/NPistol/fire		NLPSHOT
 Weapons/NPistol/nopressure	NLPPRESS
 Weapons/NPistol/firebig		NLPSHOT2
+
+//Battery Dynamo
+weapons/batdynamo/wind			BDCHARG1
+weapons/batdynamo/windfail		BDCHARG2

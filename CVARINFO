@@ -126,3 +126,10 @@ server bool hdm_enable_nailpismag				= true;
 server bool virnailpismag_allowBackpacks		= true;
 server bool SLG_NailPisMag_Persistency 			= true;
 server int hdm_nailpismag_price 				= 19;
+
+//Battery Dynamo
+server float SLG_BatDynamo_Spawns				= 5.5;
+server bool hdm_enable_batdynamo				= true;
+server bool virbatdynamo_allowBackpacks			= true;
+server bool SLG_BatDynamo_Persistency 			= true;
+server int hdm_batdynamo_price 					= 185;
