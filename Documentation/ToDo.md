@@ -16,9 +16,9 @@ Content planned for later:
 Currently Added Content:
 	- Satya Light cannon
 	- Nail ammo & Reloader			-	May need balance changes.
-	- Nail Pistol
+	- Nail Pistol					-	Reloading battery is jank.
 	- Nailgun
-	- Queen Scattergun
+	- Queen Scattergun				-	Chamber can be loaded without holding altfire.
 	- Dumbo Grenade Launcher
 	- Sabre
 	- Pipe Wrench
