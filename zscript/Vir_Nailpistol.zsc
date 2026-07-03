@@ -132,16 +132,15 @@ class VirNailPistol:HDWeapon{
 			);
 			sb.drawnum(hpl.countinv("VirNailPistolMag"),-43,-8,sb.DI_SCREEN_CENTER_BOTTOM);
 			
-			if(battery>=10){
-				sb.drawimage("MCLLA0",(-66,-3),sb.DI_SCREEN_CENTER_BOTTOM,scale:(1,1));
-			}else if(battery<1){
-				sb.drawimage("MCLLD0",(-66,-3),sb.DI_SCREEN_CENTER_BOTTOM,alpha:battery?0.6:1.,scale:(1,1));
-			}else sb.drawbar(
-				"MCLLB0","MCLLD0",
-				battery,6,
-				(-66,-3),-1,
-				sb.SHADER_VERT,sb.DI_SCREEN_CENTER_BOTTOM
-			);
+			if(battery<1){
+				sb.drawimage("MCLLD0",(-59,-3),sb.DI_SCREEN_CENTER_BOTTOM,alpha:battery?0.6:1.,scale:(1,1));
+			}else if(battery<4){
+				sb.drawimage("MCLLC0",(-59,-3),sb.DI_SCREEN_CENTER_BOTTOM,scale:(1,1));
+			}else if(battery<7){
+				sb.drawimage("MCLLB0",(-59,-3),sb.DI_SCREEN_CENTER_BOTTOM,scale:(1,1));
+			}else if(battery>=10){
+				sb.drawimage("MCLLA0",(-59,-3),sb.DI_SCREEN_CENTER_BOTTOM,scale:(1,1));
+			}
 		}
 		sb.drawwepnum(hdw.weaponstatus[NLPS_MAG],12,-16,-9);
 		sb.drawwepnum(hdw.weaponstatus[NLPS_PRESSURE],200,-16,-12);
