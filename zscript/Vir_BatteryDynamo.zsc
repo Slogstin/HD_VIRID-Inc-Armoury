@@ -167,7 +167,7 @@ class VirBatteryDynamo:HDWeapon{
 		#### D 1 A_CrankHog();
 		#### E 1 A_CrankSpeed();
 		#### # 0 {
-					if(hdplayerpawn(self))hdplayerpawn(self).fatigue+=2;
+					if(hdplayerpawn(self))hdplayerpawn(self).fatigue+=1;
 		}
 		#### # 0 A_CrankedTooHard();
 		#### E 0 A_Refire("crankdat.up");
