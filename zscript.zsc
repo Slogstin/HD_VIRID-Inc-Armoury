@@ -6,6 +6,7 @@ version "4.14"
 
 // Weapons
 #include "zscript/Vir_Satya.zsc"
+#include "zscript/Vir_Vaswani.zsc"
 #include "zscript/Vir_Nailgun.zsc"
 #include "zscript/Vir_Nailpistol.zsc"
 #include "zscript/Vir_Queen.zsc"

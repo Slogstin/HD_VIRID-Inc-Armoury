@@ -6,6 +6,9 @@ addSpawnTableSingleEntry => { "tableName": "ClipBoxReplaces", "name": "VirNailGu
 //Satya
 addSpawnTableSingleEntry => { "tableName": "ShotgunReplaces", "name": "SatyaDrop", "weight": "#SLG_Satya_Spawns", "persists": "#SLG_Satya_Persistency"}
 
+//Vaswani
+addSpawnTableSingleEntry => { "tableName": "SSGReplaces", "name": "VaswaniDrop", "weight": "#SLG_Vaswani_Spawns", "persists": "#SLG_Vaswani_Persistency"}
+
 //Nail Ammo
 addSpawnTableSingleEntry => { "tableName": "CellPackReplaces", "name": "VirNailBox", "weight": "#SLG_NailsCell_Spawns", "persists": "#SLG_Nails_Persistency"}
 addSpawnTableSingleEntry => { "tableName": "ShellBoxReplaces", "name": "VirNailBox", "weight": "#SLG_NailsShell_Spawns", "persists": "#SLG_Nails_Persistency"}
@@ -101,6 +104,10 @@ addBPSpawnPoolFilter => { "name": "VirNailPistolMag", "allowed": "#virnailpismag
 //Battery Dynamo
 addBPSpawnPoolFilter => { "name": "VirBatteryDynamo", "allowed": "#virbatdynamo_allowBackpacks" }
 
+//Vaswani
+addBPSpawnPoolFilter => { "name": "VirVaswani", "allowed": "false" }
+
+
 
 
 
@@ -134,6 +141,9 @@ addAmmoUser => { "ammoName": "HDMicroCell", "name": "VirSatya" }
 addAmmoUser => { "ammoName": "HDMicroCell", "name": "VirBatteryDynamo" }
 addAmmoUser => { "ammoName": "HDBattery", "name": "VirBatteryDynamo" }
 
+//Vaswani
+addAmmoUser => { "ammoName": "HDMicroCell", "name": "VirVaswani" }
+addAmmoUser => { "ammoName": "HDBattery", "name": "VirVaswani" }
 
 
 // ----- Ammobox Blacklist -----
@@ -160,6 +170,9 @@ addSpawnTableSingleEntry => { "tableName": "HDHandgunRandomDrop", "name": "VirNa
 
 //Satya
 newMerchantStoreItem => { "enabled": "#hdm_enable_satya", "type": "weapon", "category": "$MERCH_CAT_SATYA", "item": "VirSatya", "icon": "STYAP0", "displayName": "$MERCH_TAG_SATYA", "basePrice": "#hdm_satya_price", "flavorText": "$MERCH_FLAVOR_SATYA" }
+
+//Vaswani
+newMerchantStoreItem => { "enabled": "#hdm_enable_vaswani", "type": "weapon", "category": "$MERCH_CAT_VASWANI", "item": "VirVaswani", "icon": "VASWX0", "displayName": "$MERCH_TAG_VASWANI", "basePrice": "#hdm_vaswani_price", "flavorText": "$MERCH_FLAVOR_VASWANI" }
 
 //Nailpistol + Mags
 newMerchantStoreItem => { "enabled": "#hdm_enable_nailpistol", "type": "weapon", "category": "$MERCH_CAT_NAILPIS", "item": "VirNailPistol", "icon": "VNPSX0", "displayName": "$MERCH_TAG_NAILPIS", "basePrice": "#hdm_nailpistol_price", "flavorText": "$MERCH_FLAVOR_NAILPIS" }

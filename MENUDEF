@@ -26,6 +26,8 @@ OptionMenu "ViridInc_Menu"
 	StaticText ""
 	Submenu "'Satya' 8mm Light Cannon", "VIR_Satya_Menu", 0, 1
 	StaticText ""
+	Submenu "'Vaswani' 8mm Long-barrel Light Cannon", "SLG_Vaswani_Menu", 0, 1
+	StaticText ""
 	Submenu "'Queen' .066 Bore Scattergun", "VIR_Queen_Menu", 0, 1
 	StaticText "" 
 	Submenu "'Dumbo' 20mm Grenade Launcher", "VIR_Dumbo_Menu", 0, 1
@@ -81,7 +83,7 @@ OptionMenu "VIR_Nails_Menu"
 	StaticText ""
 	Option "Can be sold by Merchants?", "hdm_enable_Nails", "SpawnEnable"
 	StaticText ""
-	Slider "Price", "hdm_nails_price", 0.0, 5000, .01, 2
+	Slider "Price", "hdm_nails_price", 0, 5000, 1, 2
 	StaticText ""
 	StaticText ""
 	StaticText "Use the following commands for faster fine tuning of values!", "Gold"
@@ -117,7 +119,7 @@ OptionMenu "VIR_CO2_Menu"
 	StaticText ""
 	Option "Can be sold by Merchants?", "hdm_enable_co2", "SpawnEnable"
 	StaticText ""
-	Slider "Price", "hdm_co2_price", 0.0, 5000, .01, 2
+	Slider "Price", "hdm_co2_price", 0, 5000, 1, 2
 	StaticText ""
 	StaticText ""
 	StaticText "Use the following commands for faster fine tuning of values!", "Gold"
@@ -159,8 +161,8 @@ OptionMenu "VIR_Nailgun_Menu"
 	Option "Nailgun can be sold by Merchants?", "hdm_enable_Nailgun", "SpawnEnable"
 	Option "Nail Drums can be sold by Merchants?", "hdm_enable_nailgunmag", "SpawnEnable"
 	StaticText ""
-	Slider "Nailgun Price", "hdm_nailgun_price", 0.0, 5000, .01, 2
-	Slider "Nail Drum Price", "hdm_nailgunmag_price", 0.0, 5000, .01, 2
+	Slider "Nailgun Price", "hdm_nailgun_price", 0, 5000, 1, 2
+	Slider "Nail Drum Price", "hdm_nailgunmag_price", 0, 5000, 1, 2
 	StaticText ""
 	StaticText ""
 	StaticText "Use the following commands for faster fine tuning of values!", "Gold"
@@ -204,8 +206,8 @@ OptionMenu "VIR_NailPistol_Menu"
 	Option "Nail Pistol can be sold by Merchants?", "hdm_enable_Nailpistol", "SpawnEnable"
 	Option "Nail Magazines can be sold by Merchants?", "hdm_enable_nailpismag", "SpawnEnable"
 	StaticText ""
-	Slider "Nail Pistol Price", "hdm_nailpistol_price", 0.0, 5000, .01, 2
-	Slider "Nail Magazine Price", "hdm_nailpismag_price", 0.0, 5000, .01, 2
+	Slider "Nail Pistol Price", "hdm_nailpistol_price", 0, 5000, 1, 2
+	Slider "Nail Magazine Price", "hdm_nailpismag_price", 0, 5000, 1, 2
 	StaticText ""
 	StaticText ""
 	StaticText "Use the following commands for faster fine tuning of values!", "Gold"
@@ -251,8 +253,8 @@ OptionMenu "VIR_Queen_Menu"
 	Option "Gun can be sold by Merchants?", "hdm_enable_queen", "SpawnEnable"
 	Option "Mags can be sold by Merchants?", "hdm_enable_queenmag", "SpawnEnable"
 	StaticText ""
-	Slider "Scattergun Price", "hdm_queen_price", 0.0, 5000, .01, 2
-	Slider ".066 Magazines Price", "hdm_queenmag_price", 0.0, 5000, .01, 2
+	Slider "Scattergun Price", "hdm_queen_price", 0, 5000, 1, 2
+	Slider ".066 Magazines Price", "hdm_queenmag_price", 0, 5000, 1, 2
 	StaticText ""
 	StaticText ""
 	StaticText "Use the following commands for faster fine tuning of values!", "Gold"
@@ -291,7 +293,7 @@ OptionMenu "VIR_Dumbo_Menu"
 	StaticText ""
 	Option "Can be sold by Merchants?", "hdm_enable_dumbo", "SpawnEnable"
 	StaticText ""
-	Slider "Price", "hdm_dumbo_price", 0.0, 5000, .01, 2
+	Slider "Price", "hdm_dumbo_price", 0, 5000, 1, 2
 	StaticText ""
 	StaticText ""
 	StaticText "Use the following commands for faster fine tuning of values!", "Gold"
@@ -326,8 +328,8 @@ OptionMenu "VIR_Sabre_Menu"
 	Option "Sword can be sold by Merchants?", "hdm_enable_sabre", "SpawnEnable"
 	Option "Sheath can be sold by Merchants?", "hdm_enable_sabresheath", "SpawnEnable"
 	StaticText ""
-	Slider "Sword Price", "hdm_sabre_price", 0.0, 5000, .01, 2
-	Slider "Sheath Price", "hdm_sabresheath_price", 0.0, 5000, .01, 2
+	Slider "Sword Price", "hdm_sabre_price", 0, 5000, 1, 2
+	Slider "Sheath Price", "hdm_sabresheath_price", 0, 5000, 1, 2
 	StaticText ""
 	StaticText ""
 	StaticText "Use the following commands for faster fine tuning of values!", "Gold"
@@ -363,7 +365,7 @@ OptionMenu "VIR_Cleaver_Menu"
 	StaticText ""
 	Option "Can be sold by Merchants?", "hdm_enable_cleaver", "SpawnEnable"
 	StaticText ""
-	Slider "Price", "hdm_cleaver_price", 0.0, 5000, .01, 2
+	Slider "Price", "hdm_cleaver_price", 0, 5000, 1, 2
 	StaticText ""
 	StaticText ""
 	StaticText "Use the following commands for faster fine tuning of values!", "Gold"
@@ -396,7 +398,7 @@ OptionMenu "VIR_Wrench_Menu"
 	StaticText ""
 	Option "Can be sold by Merchants?", "hdm_enable_wrench", "SpawnEnable"
 	StaticText ""
-	Slider "Price", "hdm_wrench_price", 0.0, 5000, .01, 2
+	Slider "Price", "hdm_wrench_price", 0, 5000, 1, 2
 	StaticText ""
 	StaticText ""
 	StaticText "Use the following commands for faster fine tuning of values!", "Gold"
@@ -430,7 +432,7 @@ OptionMenu "VIR_Satya_Menu"
 	StaticText ""
 	Option "Can be sold by Merchants?", "hdm_enable_satya", "SpawnEnable"
 	StaticText ""
-	Slider "Price", "hdm_satya_price", 0.0, 5000, .01, 2
+	Slider "Price", "hdm_satya_price", 0, 5000, 1, 2
 	StaticText ""
 	StaticText ""
 	StaticText "Use the following commands for faster fine tuning of values!", "Gold"
@@ -449,6 +451,36 @@ OptionMenu "VIR_Satya_Menu"
 	
 }
 
+OptionMenu "SLG_Vaswani_Menu"
+{
+	Title "'Vaswani' 8mm Long-barrel Light Cannon"
+	
+	StaticText "--- Spawning ---", "DarkGreen"
+	StaticText ""
+	Slider "Spawn Weight (Super Shotgun Pool)", "SLG_Vaswani_Spawns", 0.0, 50, .01, 2
+	StaticText ""
+	Option "Persistent Spawns?", "SLG_Vaswani_Persistency", "SpawnEnable"
+	StaticText ""
+	StaticText "--- Merchant Store ---", "DarkGreen"
+	StaticText ""
+	Option "Can be sold by Merchants?", "hdm_enable_vaswani", "SpawnEnable"
+	StaticText ""
+	Slider "Price", "hdm_vaswani_price", 0, 5000, 1, 2
+	StaticText ""
+	StaticText ""
+	StaticText "Use the following commands for faster fine tuning of values!", "Gold"
+	StaticText ""
+	StaticText "Spawn Weight:", "White"
+	StaticText "SLG_Vaswani_Spawns [VALUE]", "Green"
+	StaticText ""
+	StaticText "Merchant Price:", "White"
+	StaticText "hdm_vaswani_price [VALUE]", "Green"
+	StaticText ""
+	StaticText ""
+	StaticText ""
+	
+}
+
 OptionMenu "VIR_NailReloader_Menu"
 {
 	Title "Nail Repair Device"
@@ -461,7 +493,7 @@ OptionMenu "VIR_NailReloader_Menu"
 	StaticText ""
 	Option "Can be sold by Merchants?", "hdm_enable_nailreloader", "SpawnEnable"
 	StaticText ""
-	Slider "Price", "hdm_nailreloader_price", 0.0, 5000, .01, 2
+	Slider "Price", "hdm_nailreloader_price", 0, 5000, 1, 2
 	StaticText ""
 	StaticText ""
 	StaticText "Use the following commands for faster fine tuning of values!", "Gold"
@@ -490,7 +522,7 @@ OptionMenu "VIR_BatDynamo_Menu"
 	StaticText ""
 	Option "Can be sold by Merchants?", "hdm_enable_batdynamo", "SpawnEnable"
 	StaticText ""
-	Slider "Price", "hdm_batdynamo_price", 0.0, 5000, .01, 2
+	Slider "Price", "hdm_batdynamo_price", 0, 5000, 1, 2
 	StaticText ""
 	StaticText ""
 	StaticText "Use the following commands for faster fine tuning of values!", "Gold"
@@ -522,7 +554,7 @@ OptionMenu "VIR_BurnHeal_Menu"
 	StaticText ""
 	Option "Can be sold by Merchants?", "hdm_enable_burnheal", "SpawnEnable"
 	StaticText ""
-	Slider "Price", "hdm_burnheal_price", 0.0, 5000, .01, 2
+	Slider "Price", "hdm_burnheal_price", 0, 5000, 1, 2
 	StaticText ""
 	StaticText ""
 	StaticText "Use the following commands for faster fine tuning of values!", "Gold"
@@ -556,7 +588,7 @@ OptionMenu "VIR_BabuSpray_Menu"
 	StaticText ""
 	Option "Can be sold by Merchants?", "hdm_enable_babuspray", "SpawnEnable"
 	StaticText ""
-	Slider "Price", "hdm_babuspray_price", 0.0, 5000, .01, 2
+	Slider "Price", "hdm_babuspray_price", 0, 5000, 1, 2
 	StaticText ""
 	StaticText ""
 	StaticText "Use the following commands for faster fine tuning of values!", "Gold"
@@ -590,7 +622,7 @@ OptionMenu "VIR_SBadge_Menu"
 	StaticText ""
 	Option "Can be sold by Merchants?", "hdm_enable_sbadge", "SpawnEnable"
 	StaticText ""
-	Slider "Price", "hdm_sbadge_price", 0.0, 5000, .01, 2
+	Slider "Price", "hdm_sbadge_price", 0, 5000, 1, 2
 	StaticText ""
 	StaticText ""
 	StaticText "Use the following commands for faster fine tuning of values!", "Gold"

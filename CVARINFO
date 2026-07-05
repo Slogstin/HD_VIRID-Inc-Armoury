@@ -1,3 +1,9 @@
+//Vaswani
+server float SLG_Vaswani_Spawns					= 2.2;
+server bool hdm_enable_vaswani					= true;
+server bool SLG_Vaswani_Persistency 			= true;
+server int hdm_vaswani_price 					= 310;
+
 //Nailgun
 server float SLG_Nailgun_Spawns					= 1.9;
 server bool hdm_enable_nailgun					= true;

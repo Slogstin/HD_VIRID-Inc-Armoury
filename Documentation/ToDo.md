@@ -1,11 +1,11 @@
 Additional Content to be finished (In order of importance):
 	- Updated MP40					-	Needs polish
-	- Vaswani						-	Needs sprites and tons of polish
 	- Reworked 45LC Thompson		-	Will be a whole different weapon
+	- Death's Scythe				-	Very early in development
+	- Viridian Longbow				-	It's a mess
 	
-Content planned for later:
+Content planned, but not started:
 	- Partisan						-	Long range melee weapon
-	- Death's Scythe				-	Kills grant blues
 	- E54 Reconnaissance Rifle		-	.300 Savage rifle with 20mm grenade launcher
 	- SB1 Stingray					-	30.06 Sniper Rifle
 	- Viridian Longbow				-	It's a longbow
@@ -15,6 +15,7 @@ Content planned for later:
 	
 Currently Added Content:
 	- Satya Light cannon
+	- Vaswani Light Cannon
 	- Nail ammo & Reloader			-	May need balance changes.
 	- Nail Pistol					-	Reloading battery is jank.
 	- Nailgun

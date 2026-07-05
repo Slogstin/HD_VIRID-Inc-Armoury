@@ -4,6 +4,7 @@
 	
 ## Currently Added Content:
  - Satya Light cannon
+ - Vaswani Light Cannon
  - Nail ammo & Reloader
  - Nail Pistol
  - Nailgun

@@ -1,3 +1,162 @@
+//Vaswani
+brightmap sprite VASWA0
+{
+   map brightmaps/Vaswani/VAS_IDLE_BRIGHT.png
+}
+
+brightmap sprite VASWB0
+{
+   map brightmaps/Vaswani/VAS_SHOOT_BRIGHT.png
+}
+
+brightmap sprite VASWC0
+{
+   map brightmaps/Vaswani/VAS_IDLE_BRIGHT.png
+}
+
+brightmap sprite VASWD0
+{
+   map brightmaps/Vaswani/VAS_IDLE_BRIGHT.png
+}
+
+brightmap sprite VASWE0
+{
+   map brightmaps/Vaswani/VAS_IDLE_BRIGHT.png
+}
+
+brightmap sprite VASWF0
+{
+   map brightmaps/Vaswani/VAS_IDLE_BRIGHT.png
+}
+
+brightmap sprite VASWG0
+{
+   map brightmaps/Vaswani/VAS_IDLE_BRIGHT.png
+}
+
+brightmap sprite VASWH0
+{
+   map brightmaps/Vaswani/VAS_IDLE_BRIGHT.png
+}
+brightmap sprite VASWI0
+{
+   map brightmaps/Vaswani/VAS_IDLE_BRIGHT.png
+}
+
+brightmap sprite VASWJ0
+{
+   map brightmaps/Vaswani/VAS_IDLE_BRIGHT.png
+}
+
+brightmap sprite VASWK0
+{
+   map brightmaps/Vaswani/VAS_IDLE_BRIGHT.png
+}
+
+brightmap sprite VASWL0
+{
+   map brightmaps/Vaswani/VAS_IDLE_BRIGHT.png
+}
+
+brightmap sprite VASWM0
+{
+   map brightmaps/Vaswani/VAS_VENT_BRIGHT.png
+}
+
+brightmap sprite VASWN0
+{
+   map brightmaps/Vaswani/VAS_VENT_BRIGHT.png
+}
+
+brightmap sprite VASWX0
+{
+   map brightmaps/Vaswani/VAS_PICKUP_BRIGHT.png
+}
+
+brightmap sprite VASWY0
+{
+   map brightmaps/Vaswani/VAS_PICKUP_BRIGHT.png
+}
+
+brightmap sprite VAS2A0
+{
+   map brightmaps/Vaswani/VAS_IDLE_BRIGHT_SCOPE.png
+}
+
+brightmap sprite VAS2B0
+{
+   map brightmaps/Vaswani/VAS_SHOOT_BRIGHT_SCOPE.png
+}
+
+brightmap sprite VAS2C0
+{
+   map brightmaps/Vaswani/VAS_IDLE_BRIGHT_SCOPE.png
+}
+
+brightmap sprite VAS2D0
+{
+   map brightmaps/Vaswani/VAS_IDLE_BRIGHT_SCOPE.png
+}
+
+brightmap sprite VAS2E0
+{
+   map brightmaps/Vaswani/VAS_IDLE_BRIGHT_SCOPE.png
+}
+
+brightmap sprite VAS2F0
+{
+   map brightmaps/Vaswani/VAS_IDLE_BRIGHT_SCOPE.png
+}
+
+brightmap sprite VAS2G0
+{
+   map brightmaps/Vaswani/VAS_IDLE_BRIGHT_SCOPE.png
+}
+
+brightmap sprite VAS2H0
+{
+   map brightmaps/Vaswani/VAS_IDLE_BRIGHT_SCOPE.png
+}
+brightmap sprite VAS2I0
+{
+   map brightmaps/Vaswani/VAS_IDLE_BRIGHT_SCOPE.png
+}
+
+brightmap sprite VAS2J0
+{
+   map brightmaps/Vaswani/VAS_IDLE_BRIGHT_SCOPE.png
+}
+
+brightmap sprite VAS2K0
+{
+   map brightmaps/Vaswani/VAS_IDLE_BRIGHT_SCOPE.png
+}
+
+brightmap sprite VAS2L0
+{
+   map brightmaps/Vaswani/VAS_IDLE_BRIGHT_SCOPE.png
+}
+
+brightmap sprite VAS2M0
+{
+   map brightmaps/Vaswani/VAS_VENT_BRIGHT_SCOPE.png
+}
+
+brightmap sprite VAS2N0
+{
+   map brightmaps/Vaswani/VAS_VENT_BRIGHT_SCOPE.png
+}
+
+brightmap sprite VAS2X0
+{
+   map brightmaps/Vaswani/VAS_PICKUP_BRIGHT_SCOPE.png
+}
+
+brightmap sprite VAS2Y0
+{
+   map brightmaps/Vaswani/VAS_PICKUP_BRIGHT_SCOPE.png
+}
+
 //Nailgun
 brightmap sprite VNLGA0
 {

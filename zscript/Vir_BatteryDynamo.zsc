@@ -14,7 +14,7 @@ class VirBatteryDynamo:HDWeapon{
 		weapon.bobrangey 0.9;
 		Inventory.PickupMessage "$PICKUP_BATDYNAMO";
 //		obituary "$OB_RAILGUNDYNAMO";
-		hdweapon.refid "VBC";
+		hdweapon.refid "vbc";
 		hdweapon.barrelsize 13,0.3,0.5;
 		Tag "$TAG_BATDYNAMO";
 		inventory.maxamount 1;

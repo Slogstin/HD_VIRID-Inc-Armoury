@@ -77,3 +77,22 @@ Weapons/NPistol/firebig		NLPSHOT2
 //Battery Dynamo
 weapons/batdynamo/wind			BDCHARG1
 weapons/batdynamo/windfail		BDCHARG2
+
+//Vaswani
+weapons/Vaswani/openair		VASOPNVL
+weapons/Vaswani/closeair	VASCLSVL
+weapons/Vaswani/airloop		VASPRSAIR
+weapons/Vaswani/charge		VASCHARG
+weapons/Vaswani/bigcharge	VASCHAR2
+weapons/Vaswani/warning		VASWARN
+weapons/Vaswani/success		VASYAY
+weapons/Vaswani/shoot1		VASSHOT
+weapons/Vaswani/shoot2		VASSHOT2
+weapons/Vaswani/down		VASDOWN
+weapons/Vaswani/steam		VASSTEAM
+
+$volume weapons/Vaswani/openair 0.6
+$volume weapons/Vaswani/openair 0.4
+$volume weapons/Vaswani/closeair 0.05
+$volume weapons/Vaswani/warning 0.45
+$volume weapons/Vaswani/success 0.75

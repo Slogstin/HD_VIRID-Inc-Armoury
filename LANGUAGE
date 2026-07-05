@@ -1,5 +1,11 @@
 [en enc eng eni ena enz default]
 
+//Vaswani
+TAG_VASWANI = "'Vaswani' 8mm, Long-barrel Light Cannon";
+OB_VASWANI = "%o flew into %k's blue light, like a mosquito.";
+PICKUP_VASWANI = "You got the 'Vaswani' Light Cannon!";
+PICKUP_VASWANI_DEFECT = "You got the 'Vaswani' Light Cannon...something's wrong with it though...";
+
 //Nailgun + mags
 TAG_NAILGUN = "Virid Inc. Electro Magnetic Nailgun";
 PICKUP_NAILGUN = "You got the Nailgun! Make them your new wall art!";
@@ -97,6 +103,11 @@ TAG_BATDYNAMO = "'Power Hog' Battery Dynamo";
 PICKUP_BATDYNAMO = "You got the Battery Dynamo! Say goodbye to your arm!";
 
 // Merchant
+
+//Vaswani
+MERCH_CAT_VASWANI				= "VIRID Inc.";
+MERCH_TAG_VASWANI				= "'Vaswani' 8mm Long-barrel Light Cannon";
+MERCH_FLAVOR_VASWANI			= "May or may not come with a scope. May or may not be broken as well.";
 
 //Battery Dynamo
 MERCH_CAT_BATDYNAMO				= "VIRID Inc.";
