@@ -1,7 +1,14 @@
 const ENC_NAILAMMO=ENC_776*0.95;
 const ENC_NAILAMMO_LOADED=ENC_776*0.8;
 
-class HDB_VIRNAIL : HDBulletActor
+// Unfortunately the nails have next to no stopping power on even the fodder enemies
+// with a speed stat like that. You can shoot a slop head 3 times and he will act
+// like nothing ever hit him and keep shooting you.
+// This isn't a big problem for the Nailgun, but the Nail Pistol is borderline useless
+// You can shoot someone a bunch and eat a face-full of buckshot even though every
+// shot hit, which sucks for a weapon where every hit is precious.
+
+/*class HDB_VIRNAIL : HDBulletActor
 {
 	Default
 	{
@@ -13,6 +20,23 @@ class HDB_VIRNAIL : HDBulletActor
 		Stamina 950;
 		WoundHealth 20;
 		HDBulletActor.Hardness 3;
+	}*/
+
+// Just to keep the heavy nail feel, i greatly increased the gravity so they keep
+// their big arch.
+	
+class HDB_VIRNAIL : HDBulletActor
+{
+	Default
+	{
+		PushFactor 0.1;
+		gravity HDCONST_GRAVITY*2.6;
+		Mass 145;
+		speed HDCONST_MPSTODUPT*320;
+		Accuracy 250;
+		Stamina 950;
+		WoundHealth 14;
+		HDBulletActor.Hardness 5;
 	}
 	
 override void HitGeometry(line hitline, sector hitsector, int hitside,
